@@ -2,7 +2,7 @@
   <div class="col-md-4 mx-auto">
     <div class="card">
       <div class="card-header">
-        Account Register 
+        Account Register
       </div>
       <div class="card-body">
         <form action="/users/signup" method="POST">
@@ -19,9 +19,18 @@
             <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" value="{{confirm_password}}">
           </div>
           <button class="btn btn-primary btn-block">
-            Signup 
+            Signup
           </button>
         </form>
+      </div>
+      <div className="Col">
+        <div className="text-center">
+          <div className="alert alert-primary">
+            O ingrese usando estos servicios de terceros
+          </div>
+          <button className="btn btn-default">Facebook</button>
+          <button className="btn btn-default">Google</button>
+        </div>
       </div>
     </div>
   </div>
